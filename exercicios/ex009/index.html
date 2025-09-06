@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body{
+        background-color: black;
+        color: white;
+      }
+    </style>
   </head>
   <body>
     <h1>Trabalhando com Listas</h1>
@@ -21,5 +27,53 @@
       <li>tomate</li>
       <li>arroz</li>
     </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+      <li>Antigas</li>
+      <ol type="a">
+        <li>Clipper</li>
+        <li>Visual Basics</li>
+        <li>Fortran</li>
+        <li>Delphi</li>
+      </ol>
+      <li>Novas</li>
+      <ol type="a" start="5">
+        <li>PHP</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Kotlin</li>
+      </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+      <li>NES</li>
+      <ul type="square">
+        <li>Mario Bros</li>
+        <ul type="circle">
+          <li>MArio Bros 3</li>
+          <li>Mario: Lost Levels</li>
+        </ul>
+        <li>Ninja Gaiden</li>
+      </ul type="square">
+      <li>SNES</li>
+      <ul type="square">
+        <li>Mario</li>
+        <li>Donkey Kong</li>
+      </ul type="square">
+      <li>PlayStation</li>
+      <ul type="square">
+        <li>Final Fantasy</li>
+        <li>Castlevania</li>
+      </ul type="square">
+    </ol type="square">
+    <h2>Lista de Definições</h2>
+    <dl> <!--Comos e fosse um ddicionário-->
+      <dt>HTML</dt>
+      <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+      <dt>CSS</dt>
+      <dd>Linguagem de marcação para a criação do design de um site</dd>
+      <dt>JavaScript</dt>
+      <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+    </dl>
   </body>
 </html>
